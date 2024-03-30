@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearParent"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modul 3 - Praktikum PAB"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/dataautocomplete"
+        android:padding="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="3"
+        android:hint="Ketikkan Nama Program Studi" />
+
+    <EditText android:id="@+id/datalistview"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="PilihProdi"
+        android:focusableInTouchMode="false"
+        android:hint="Klik dan pilih Program Studi" />
+
+</LinearLayout>
